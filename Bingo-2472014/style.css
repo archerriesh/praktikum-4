@@ -1,0 +1,43 @@
+#custom-pattern {
+	background-image: repeating-conic-gradient(#1A8FE5 0% 25%, #E4E4ED 0% 50%);
+	background-position: 0 0, 32px 32px;
+	background-size: 64px 64px;
+	background-color: #E4E4ED;	
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100wh;
+}
+
+h1 {
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: orangered;
+    border-top-right-radius: 150px 15px;
+    border-bottom-left-radius: 150px 15px;
+    text-align: center;
+    max-width: 50%;
+}
+
+.ijoi{
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: 10px solid green;
+    padding: 10px 10px 10px 10px;
+}
+
+.judul {
+    font-weight: bold;
+}
+
+.kosong{
+    padding-left: 20%;
+    padding-right: 20%;
+}
