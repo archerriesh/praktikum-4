@@ -1,0 +1,5 @@
+div {
+    background-image: url('/img/pattern.jpg');
+    padding: 40px;
+    background-size: 100%;
+}

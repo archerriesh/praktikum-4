@@ -1,0 +1,37 @@
+div{
+    background-image: url('/img/sertif.jpg');
+    background-size:100%;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+H2 {
+    font-size: 35px solid black;
+}
+
+H1{
+    font-size: 60PX ;
+    color : #2d456e;
+}
+
+H3{
+    font-size: 55px;
+    color:#951f1d;
+}
+
+p{
+    font-size: 30px;
+    color: #3f4650;
+}
+
+#dosen {
+    font-size: 30px;
+    color: #951f1d;
+}
+
+#bawahbanget{
+    font-size: 25px;
+    color: black;
+    letter-spacing: 2px;
+}
