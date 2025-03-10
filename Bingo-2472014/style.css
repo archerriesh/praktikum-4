@@ -1,43 +1,152 @@
 #custom-pattern {
-	background-image: repeating-conic-gradient(#1A8FE5 0% 25%, #E4E4ED 0% 50%);
-	background-position: 0 0, 32px 32px;
-	background-size: 64px 64px;
-	background-color: #E4E4ED;	
+    background-image: repeating-conic-gradient(#1A8FE5 0% 25%, #E4E4ED 0% 50%);
+    background-size: 64px 64px;
+    background-color: #E4E4ED;
     padding: 20px;
-    height: 100%;
     width: 100%;
-    background-position: center;
+    text-align: center;
 }
 
-.center{
-    justify-content: center;
+.center {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-    min-height: 100wh;
+    min-height: 100vh;
 }
 
 h1 {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
     background-color: orangered;
-    border-top-right-radius: 150px 15px;
-    border-bottom-left-radius: 150px 15px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
     text-align: center;
-    max-width: 50%;
+    margin: auto;
+    color: black;
 }
 
-.ijoi{
+table {
+    width: 80%;
+    margin: 20px auto;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.ijoi {
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
-    border: 10px solid green;
-    padding: 10px 10px 10px 10px;
+    border: 5px solid green;
+    padding: 15px;
 }
 
 .judul {
+    text-align: center;
     font-weight: bold;
+    padding-left: 0%;
 }
 
-.kosong{
+.kosong {
     padding-left: 20%;
     padding-right: 20%;
+}
+
+.start {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button {
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer hr {
+    width: 100%;
+    height: 2px; 
+    background-color: purple;
+    border: none; 
+    margin: 10px; 
+}
+
+.owren { background-color: orange; }
+.ijo { background-color: green; }
+.biru { background-color: blue; }
+.kuning { background-color: yellow; color: black; }
+.salmon { background-color: beige; color: black; }
+
+.owren, .ijo, .biru, .kuning, .salmon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.oval {border-radius: 100px/50px;}
+
+.dash {
+    border-color: black;
+    height: 60px;
+    border-style: dashed;
+    border-width: 10px;
+}
+
+.ijot {
+    border-color: lime;
+    border-style: solid;
+    width: 90px;
+    height: 85px;
+    border-width: 5px;
+}
+
+.bingokot {
+        grid-template-columns: repeat(5, 95px);
+        gap: 5px;
+        margin: 75px auto;
+        display: grid;
+}
+
+style{
+    display: flex; 
+    justify-content: center;
+}
+
+.leaderboard {
+    margin-top: 20px;
+    justify-content: center;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10%%;
+}
+
+li {padding-left: 50px;}
+
+.modern {
+    list-style-type: decimal;
+    text-align: left;
+}
+.roman {
+    list-style-type: upper-roman;
+    text-align: left;
 }
